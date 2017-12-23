@@ -1,14 +1,14 @@
 <?php
 //This is the configuration file for Uguu Temp File Sharing system
-define("CONFIG_ROOT_URL", "http://path.to.uguu");
+define("CONFIG_ROOT_URL", "https://b.cipher.cx");
 //Enable this if you use a subdomain for serving uploaded files
 define("CONFIG_SUBUPLOAD_URL_ENABLED", "false");
 //Only define this if the above is set to true
 define("CONFIG_SUBUPLOAD_URL", "http://a.uguu.se");
 //Path to uploaded files
-define("CONFIG_FILES_PATH", "/path/to/uguu/public/files/");
+define("CONFIG_FILES_PATH", "/home/cipher.cx/domains/b.cipher.cx/public_html/public/files");
 //Path to Uguu's files
-define("CONFIG_ROOT_PATH", "/path/to/uguu/");
+define("CONFIG_ROOT_PATH", "/home/cipher.cx/domains/b.cipher.cx/public_html");
 //Max retention time in minutes
 define("CONFIG_MAX_RETENTION_TIME", "60");
 //Max retention time as a text to be displayed
